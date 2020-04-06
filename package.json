@@ -1,0 +1,30 @@
+{
+  "name": "express-pizzaria",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinnydeveloper/express-pizzaria.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinnydeveloper/express-pizzaria/issues"
+  },
+  "homepage": "https://github.com/vinnydeveloper/express-pizzaria#readme",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "method-override": "^3.0.0",
+    "npm": "^6.14.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "description": ""
+}

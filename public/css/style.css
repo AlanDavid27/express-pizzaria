@@ -1,0 +1,10 @@
+.card {
+    background-color: crimson;
+    color:#fff;
+}
+.form-cadastro{
+    width: 400px;
+}
+.vh-75{
+    height: 75vh important ;
+}

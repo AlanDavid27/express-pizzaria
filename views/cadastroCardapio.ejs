@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('includes/head.ejs', {title:"cadastro de pizza"}) %>
+
+
+<body>
+    <%- include('includes/head.ejs')%>
+    <main class="container">
+        <form action="/cardapio/cadastro" method="post" class="form-cadastro">
+            <h2>Cadastro de pizza</h2>
+            <div class="form-group">
+                <label for="">Nome da pizza</label>
+                <input type="text" class="form-control" id="nomePizza" name="nomePizza" >
+            </div>
+            <div class="form-group">
+                <label for="">preço da pizza</label>
+                <input type="number" class="form-control" id="precoPizza" name="precoPiza" >
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-sucess">Finalizar cadastro</button>
+
+            </div>
+        </form>
+
+
+    </main>
+    
+</body>
+</html>
+a 
